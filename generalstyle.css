@@ -1,0 +1,92 @@
+body {
+	
+	height: 100%;
+	background-color: #cde6fe;
+	font-family: "Verdana";
+}
+
+P {
+	background-color: #FFFFFF;
+	border-radius: 18px;
+	padding: 15px;
+	border: 2px solid #6ab3fb;
+	width: 400px;
+}
+
+header {
+	height: 5%;
+	background-color: #FFFFFF;
+	padding: 5px 5px;
+	margin-left: -10;
+	margin-right: -10;
+	margin-top: -8;
+	
+}
+
+nav {
+		height: 70%;
+}
+footer {
+	
+	margin-left: -10;
+	margin-right: -10;
+	background-color: #3899fa;
+	height: 20%;
+	
+}
+
+#sel,#modelli {
+	width: 60%;
+	padding: 5px 5px ;
+	margin: 3px;
+	border: none;
+	border-radius: 4px;
+	background-color: #FFFFFF;
+}
+
+select[name="fromyr"], select[name="toyr"],
+select[name="minprice"], select[name="maxprice"],
+select[name="minkm"], select[name="maxkm"],
+ select[name="cambio"], select[name="carb"], select[name="yr"]{ 
+	width: 30%;
+	padding: 5px 5px ;
+	margin: 3px;
+	border: none;
+	border-radius: 4px;
+	background-color: #FFFFFF;
+} 
+
+
+input[type=button], input[type=submit] {
+  width: 30%;
+  background-color: #0566c7;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#myforms {
+	width :40%;
+	margin-left: 10px;
+	clear: both;
+}
+
+input[type=text], input[type=password]{
+	width: 100%;
+	padding: 5px 5px ;
+	margin: 3px;
+	border: none;
+	border-radius: 4px;
+	background-color: #FFFFFF;
+}
+input[type=number] {
+	width: 40%;
+	padding: 5px 5px ;
+	margin: 3px;
+	border: none;
+	border-radius: 4px;
+	background-color: #FFFFFF;
+}
